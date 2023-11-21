@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/ResumeBuilder/static/css/main.afb1c9d2.css",
+    "main.js": "/ResumeBuilder/static/js/main.8acba95a.js",
+    "static/js/703.8b506bfe.chunk.js": "/ResumeBuilder/static/js/703.8b506bfe.chunk.js",
+    "static/js/635.dfefa0e5.chunk.js": "/ResumeBuilder/static/js/635.dfefa0e5.chunk.js",
+    "static/media/temp1.jpg": "/ResumeBuilder/static/media/temp1.329980742d04930eb2ab.jpg",
+    "static/media/temp3.jpg": "/ResumeBuilder/static/media/temp3.ae1a39df2ea7167f8263.jpg",
+    "static/media/temp2.jpg": "/ResumeBuilder/static/media/temp2.3ec09b191b9836b5120c.jpg",
+    "static/media/temp4.jpg": "/ResumeBuilder/static/media/temp4.ab016625e110faf16a25.jpg",
+    "static/media/ResumeAngels _ Etsy.jpg": "/ResumeBuilder/static/media/ResumeAngels _ Etsy.54f5af08983f99b9ecad.jpg",
+    "index.html": "/ResumeBuilder/index.html",
+    "main.afb1c9d2.css.map": "/ResumeBuilder/static/css/main.afb1c9d2.css.map",
+    "main.8acba95a.js.map": "/ResumeBuilder/static/js/main.8acba95a.js.map",
+    "703.8b506bfe.chunk.js.map": "/ResumeBuilder/static/js/703.8b506bfe.chunk.js.map",
+    "635.dfefa0e5.chunk.js.map": "/ResumeBuilder/static/js/635.dfefa0e5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.afb1c9d2.css",
+    "static/js/main.8acba95a.js"
+  ]
+}
