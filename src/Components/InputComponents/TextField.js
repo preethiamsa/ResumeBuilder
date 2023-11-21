@@ -79,6 +79,7 @@ function TextField(props) {
         <div  style={((value!=="" || showErrorMessages === true)  && errorMessage!=="")?{display:'block',position:'absolute', bottom:-20,color:"rgb(247, 89, 89)",}:{display:'none'}}>{errorMessage}</div>
         <input
             className='input-style'
+            
             id={props.elementId}
             type={props.type}
             value={value}

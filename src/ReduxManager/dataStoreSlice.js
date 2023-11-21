@@ -34,7 +34,7 @@ export const dataStoreSlice = createSlice({
         }],
         skills:[{skillName:""}] ,
         selectedTemplate:"",
-        imageFile:null,
+        imageFile:'https://test.resumebuild.com/app/static/images/photo-placeholder.jpg',
         errorMessages:{},
         showErrorMessages:false,
   },

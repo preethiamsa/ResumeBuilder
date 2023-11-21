@@ -25,13 +25,13 @@ function App() {
         }
     }
     return (
-        <div className="container">
+        <div className="container" style={{display:'flex'}}>
     
             <div className="row">
-                <img style={{height:'150px', width:'100px', background:'grey',padding:0}} src={imageFile} alt='profile'/>
+                <img style={{height:'150px', width:'150px',backgroundRepeat:'no-repeat',padding:0}} src={imageFile} alt='profile'/>
             </div>
-            <div className="row">
-                <input type="file" onChange={handleChange} />
+            <div className="row" style={{paddingTop:'70px',paddingLeft:'40px',color:'white'}}>
+                <input id="input" type="file"  onChange={handleChange} />
             </div>
             
   

@@ -44,24 +44,24 @@ function MyResume() {
       }
     
     return (
-        <div className='container w-100 overflow-scroll'>
+        <div className='container w-100 '>
         <div  className=' row mt-2 p-5'>
             <div className='w-100 d-flex justify-content-center'>
                 <Link to="/detailsfillingpage/keyskills">
-                    <button className='btn btn-primary me-4 p-2'> Go-Back</button>
+                    <button className='btn btn-primary me-4 p-2' style={{backgroundColor:'#fe8c26',color:'white',border:'none',fontSize:'bold'}}> Go-Back</button>
                 </Link>
                 <button className='btn btn-success ms-3 p-2'onClick={downloadComponentPDF}>
                     Save Resume
                 </button>
             </div>
         </div>
-        <div  className='  mt-2 p-5 w-100 ' style={{ minWidth:"1200px", overflow:'scroll'}}>
+        <div  className='  mt-2 p-5 w-100 '>
             <div className=' w-100  d-flex justify-content-center '>
                 <div className='w-100 ' >
                     <div id='divToPrint' className='w-100'>
                         {/* In this div, user selected template is rendered alongwith the details filled by the user. */}
                         {selectedTemplate===""
-                        ?<div><h1>Please select a template!</h1></div>
+                        ?<div><h1 style={{textAlign:'center'}}>Please select a template!</h1></div>
                         :selectedTemplate === "Template 1"
                         ?<Template1  />
                         :selectedTemplate === "Template 2"

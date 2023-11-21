@@ -13,7 +13,8 @@ function BottomNavigation(props) {
                             <div className="row row-cols-2">
                               <div className="col-sm-9 mt-4 d-flex justify-content-end">
                                 <Link to={props.prevPagePath}>
-                                  <button  className='btn btn-primary  p-1 px-2'
+                                  <button  style={{backgroundColor:'#fe8c26',color:'white',border:'none',fontSize:'bold'}}
+                                  className='btn btn-primary  p-1 px-2'
                                     onClick={()=>{
                                       dispatch(updateState({
                                         key:'errorMessages',
@@ -28,7 +29,7 @@ function BottomNavigation(props) {
                               <div className="col-sm-3 mt-4">
                                 {/* this link will be active only when the 'props.isFormValid' === true, and will direct the user to the nextPagePath otherwise it will remain inactive and show the alert, */}
                                 <Link to={props.isFormValid?props.nextPagePath:'#'}>
-                                  <button className='btn btn-primary p-1 px-2'
+                                  <button className='btn btn-primary p-1 px-2' style={{backgroundColor:'#fe8c26',color:'white',border:'none',fontSize:'bold'}}
                                             onClick={()=>{
                                                 if(!props.isFormValid){
                                                     alert('Please fill all the necessary details correctly!')

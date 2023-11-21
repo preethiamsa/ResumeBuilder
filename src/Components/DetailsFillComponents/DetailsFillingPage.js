@@ -41,28 +41,32 @@ function DetailsFillingPage() {
   
   return (
     <div>
-      <div className="container text-center" style={{ maxWidth:"1920px",marginTop:"12px",backgroundColor:"#fafafa",}}>
+      <div className="container text-center" style={{ maxWidth:"1920px",paddingTop:"70px"}}>
         <div >
               <div className='row' style={{minHeight:'100vh'}}>
 
                     <div className=" col-lg-3 col-sm-12 col-12 sidebar"  >
-                            <li className="list-item" onClick={onSideNavLinkClick}>
+                            <li className="list-item" onClick={onSideNavLinkClick} >
                               {/* condition is applied to the Link when 'isFormValid'=== true, then the link is active and directs the user to the next page otherwise the link is inactive */}
+                               <i class="bi bi-person-fill"></i>
                                 <Link to = {isFormValid?"/detailsfillingpage/personalinfo":'#'} className='no-text-decoration'>
                                   Personal Info
                                 </Link>
                             </li>
                             <li className=" list-item" onClick={onSideNavLinkClick}>
+                            <i class="bi bi-building-fill-gear"></i>
                                 <Link to = {isFormValid?"/detailsfillingpage/workex":'#'} className='no-text-decoration' style={{fontSize:'inherit'}}>
                                 Work Experience
                                 </Link>
                             </li>
                             <li className=" list-item" onClick={onSideNavLinkClick}>
+                            <i class="bi bi-mortarboard-fill"></i>
                                 <Link to = {isFormValid?"/detailsfillingpage/education":'#'} className='no-text-decoration'>
                                   Education
                                 </Link>
                             </li>
                             <li className=" list-item" onClick={onSideNavLinkClick}>
+                                <img  style={{width:'25px',height:'25px'}} src='https://cdn-icons-png.flaticon.com/128/9614/9614272.png' />
                                 <Link to = {isFormValid?"/detailsfillingpage/keyskills":'#'} className='no-text-decoration'>
                                   Key Skills
                                 </Link>
@@ -71,7 +75,7 @@ function DetailsFillingPage() {
                     </div>
                 
                 
-                    <div className="content col-lg-9 col-sm-12 col-12" style={{border:"solid grey 2px", boxShadow: "5px 5px 8px 10px #888888"}}>
+                    <div className="content col-lg-9 col-sm-12 col-12">
                       {/* these are the nested routes of detailsfillingpage, which helps in rendering different component- personalInfo, workEx, education & keySkills , inside detailsfillingpage when the user clicks on next button or navigate through links of sideNavbar */}
                           <Routes>
                                     <Route exact path="/personalinfo" 

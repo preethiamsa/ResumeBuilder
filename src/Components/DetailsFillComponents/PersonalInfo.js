@@ -27,7 +27,7 @@ function PersonalInfo(props) {
     }
   }
   return (
-    <div style={{padding:"15px", textAlign:"left",}}>
+    <div style={{padding:"15px", textAlign:"left",backgroundColor:'white',height:'900px'}}>
         <div>
           <div>
             {/* ProfilePicUploadComponent is to show the selected profileImage in the resume uploaded by the user*/}

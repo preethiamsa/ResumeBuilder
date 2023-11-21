@@ -175,13 +175,13 @@ function Education(props) {
             )
         })}
         <div className='d-flex'>
-                <button 
+                <button style={{backgroundColor:'#fe8c26',color:'white',border:'none',fontSize:'bold'}}
                     className='btn btn-primary mt-3 me-5 mb-3 ml-1 p-2'
                     onClick={AddEducation}
                 >
                     Add new
                 </button>
-                <button 
+                <button style={{backgroundColor:'#fe8c26',color:'white',border:'none',fontSize:'bold'}}
                     className='btn btn-primary mt-3 ms-5 mb-3 ml-1 p-2'
                     onClick={RemoveEducation}
                 >
